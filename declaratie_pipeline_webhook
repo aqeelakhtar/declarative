@@ -1,0 +1,14 @@
+pipeline
+{
+ agent any
+ stages
+ {
+   stage("code pulling")
+   {
+      steps
+      {
+       git 'https://github.com/aqeelakhtar/maven.git'
+       } 
+    } 
+ }
+} 
